@@ -32,9 +32,13 @@
     -ms-transform: translateY(80px);
     transform: translateY(80px); }
   .navbar .logo {
-    padding: 7px 15px;
+    padding: 1px 10px;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 30px; }
+    border-radius: 30px;
+    height: 1vh;
+    width: 4vw;
+    padding-bottom: 38px;
+  }
   .navbar .info {
     margin-right: auto; }
     .navbar .info .item {
