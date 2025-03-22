@@ -89,7 +89,11 @@
     position: relative; }
     .header-mp .caption h1 {
       font-size: 290px;
-      line-height: 1.2; }
+      line-height: 1.2;
+      background: linear-gradient(45deg, #f80b0b, #f14b39, #fd9a4f);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  display: inline-block;}
       .header-mp .caption h1 span {
         font-family: "Playfair Display", serif;
         font-style: italic; }
@@ -103,7 +107,7 @@
       padding: 10px;
       border-radius: 50%; }
       .header-mp .caption .union .icon {
-        width: 64px;
+        width: 104px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -784,7 +788,8 @@ p {
   .sec-head .ml-auto {
     margin: 30px 0 0 0 !important; }
   .header-mp .caption h1 {
-    font-size: 200px; }
+    font-size: 200px;
+  }
   .services-mp .content .item {
     padding: 0 15px; }
   .process-mp .item .d-flex {
