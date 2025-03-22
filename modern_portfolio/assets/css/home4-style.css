@@ -1,7 +1,7 @@
 :root {
   --bg-color: #EEEEEE;
   --theme-color: #fff;
-  --main-color: #85EE00; }
+  --main-color: #f15443; }
 
 /* --------------- Menu --------------- */
 .navbar {
@@ -62,9 +62,9 @@
 /* --------------- header --------------- */
 .header-mp {
   padding: 180px 0 100px;
-  background-image: -webkit-linear-gradient(280deg, #7FE85A, #fff 80%);
-  background-image: -o-linear-gradient(280deg, #7FE85A, #fff 80%);
-  background-image: linear-gradient(170deg, #7FE85A, #fff 80%);
+  background-image: -webkit-linear-gradient(280deg, #fbfbfb, #fff 80%);
+  background-image: -o-linear-gradient(280deg, #ffffff, #fff 80%);
+  background-image: linear-gradient(170deg, #ffffff, #fff 80%);
   position: relative; }
   .header-mp .brush {
     position: absolute;
